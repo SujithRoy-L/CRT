@@ -1,0 +1,32 @@
+<html>
+
+<head>
+
+</head>   
+<body>
+    <h2>
+        counter
+    </h2>
+    <h3 id="counter">
+0
+    </h3>
+    <button>+</button>
+    <button>-</button>
+    <script>
+let buttons=document.querySelectorAll("button");
+let count=0;
+let ans=document.getElementById("counter");
+
+buttons[0].addEventListener("click",function(){
+    count++;
+    ans.textContent = count;
+    });
+buttons[1].addEventListener("click",function(){
+    count--;
+    ans.textContent = count;
+    });
+
+
+
+    </script>
+</body>
