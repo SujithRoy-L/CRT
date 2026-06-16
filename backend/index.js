@@ -5,7 +5,7 @@ const Product = require("./models/products")
 
 app.use(express.json())
 
-mongoose.connect("mongodb+srv://sujithroylingam_db_user:Sujith2005@sujithroy.ah5wipf.mongodb.net/?appName=SujithRoy")
+mongoose.connect("")
 .then(()=>{
     console.log("db connected")
 })
